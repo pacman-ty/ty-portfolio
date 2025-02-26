@@ -3,21 +3,33 @@
 
 ## Using my website as a template for your own 
 
-First create an empty repo for your own portfolio on github.
+1. **Create an Empty Repository on GitHub**
+Type shit.
 
-In your desired directory clone my repo:
-`git clone git@github.com:pacman-ty/ty-portfolio.git`
+2. **Clone My Repository**  
+```bash 
+git clone git@github.com:pacman-ty/ty-portfolio.git
+```
 
-Navigate into the cloned repository:
-`cd ty-portfolio`
+3. **Navigate into the Cloned Repository**
+```bash 
+cd ty-portfolio
+```
 
-Remove the original remote: 
-`git remote remove origin`
+4. **Remove the Original Remote**
+```bash
+git remote remove origin
+```
 
-Add your own repository as the new remote:
-`git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git`
+5. **Add Your Repository as the New Remote**
+```bash
+git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
+```
 
-Push the code to your remote repository:
-`git push -u origin main`
+6. **Push the Code to Your Remote Repository**
+```bash
+git push -u origin main
+```
 
-Now start changes things up and make it your own 
+7. **Customize and Make It Your Own**
+Get freaky with it.
