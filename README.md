@@ -5,7 +5,7 @@
 
 1. **Create an Empty Repository on GitHub** \
 Type shit.
-\
+\\
 2. **Clone My Repository**  
 ```bash 
 git clone git@github.com:pacman-ty/ty-portfolio.git
