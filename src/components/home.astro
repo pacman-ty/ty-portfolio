@@ -9,11 +9,11 @@ import SkillsList from "../React/SkillsList.tsx";
     <div class="text-left space-y-4">
       <!-- Greeting -->
       <p class="text-md md:text-2xl">
-        <span class="text-[var(--sec)] shiny-sec">Hi, I'm Talha Yildirim </span>
+        <span class="text-[var(--sec)] shiny-sec"> <a href="https://www.linkedin.com/in/talha-yildirimm/"> Hi, I'm Talha Yildirim </a> </span>
       </p>
     
       <!-- Title, Description, and Cowsay ASCII Art -->
-      <div class="flex flex-col lg:flex-row lg:items-start space-y-4 lg:space-y-0 lg:space-x-8">
+      <div class="flex flex-col lg:flex-row lg:items-start space-y-4 lg:space-y-0 lg:space-x-7">
         <!-- Title -->
         <h1 class="text-[var(--white)] text-5xl md:text-6xl font-medium text-pretty leading-none">
           Software <br /> Engineer
@@ -21,15 +21,20 @@ import SkillsList from "../React/SkillsList.tsx";
     
         <!-- Description -->
         <p class="text-md md:text-2xl text-[var(--white-icon)]">
-          <span class="text-neutral-300">Self driven developer, passionate about backend development, selfhosting/homelabs, and digital privacy.   <span class="text-[var(--sec)] shiny-sec">learn more about me! </span></span>
+          <span class="text-neutral-300">Self driven developer, passionate about backend/infrastructure engineering, <a href="https://www.gnu.org/philosophy/free-software-intro.en.html" 
+            class=" text-gray-900 underline dark:text-white decoration-indigo-500"> selfhosting/homelabs</a>, and digital privacy.  <!-- replace the link for selfhosting with proxmox link -->
+            A strong beliver in the  <a href="https://www.gnu.org/philosophy/free-software-intro.en.html" class=" text-gray-900 underline dark:text-white decoration-indigo-500">
+            Free Software Movement</a> and an outdoors enjoyer. Learn more <span class="text-[var(--sec)] shiny-sec"> <a href="https://www.linkedin.com/in/talha-yildirimm/">
+            about me! </a> </span> <!-- replace linkedin hyperlink with page seprate page about me --> 
           
         </p>
     
         <!-- Cowsay ASCII Art -->
         <div class="flex-shrink-0 mt-4 lg:mt-0">
+          <a href="https://wiki.archlinux.org/title/Main_page">
           <pre class="text-xs text-green-600  font-mono">
      ___________________
-    &lt; linux enthusiast!  &gt;
+    &lt; i use arch btw  &gt;
      -------------------
             \   ^__^
              \  (oo)\_______
@@ -37,6 +42,7 @@ import SkillsList from "../React/SkillsList.tsx";
                     ||----w |
                     ||     ||
           </pre>
+        </a>
         </div>
       </div>
 
