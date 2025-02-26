@@ -3,7 +3,7 @@
 
 ## Using my website as a template for your own 
 
-1. **Create an Empty Repository on GitHub** \nl
+1. **Create an Empty Repository on GitHub** \
 Type shit.
 
 2. **Clone My Repository**  
@@ -31,5 +31,5 @@ git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
 git push -u origin main
 ```
 
-7. **Customize and Make It Your Own** \\
+7. **Customize and Make It Your Own** \
 Get freaky with it.
