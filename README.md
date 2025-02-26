@@ -4,7 +4,7 @@
 ## Using my website as a template for your own 
 
 1. **Create an Empty Repository on GitHub** \
-ʕ •ᴥ•ʔ
+(^_^)/
 <br>
 
 3. **Clone My Repository**  
