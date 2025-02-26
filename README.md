@@ -1,4 +1,4 @@
-# Talha Yildirims Portfolio Website
+# Talha Yildirim's Portfolio Website
 \:\)
 
 ## Using my website as a template for your own 
