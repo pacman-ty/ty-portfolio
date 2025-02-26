@@ -5,8 +5,8 @@
 
 1. **Create an Empty Repository on GitHub** \
 Type shit.
-\\
-2. **Clone My Repository**  
+
+3. **Clone My Repository**  
 ```bash 
 git clone git@github.com:pacman-ty/ty-portfolio.git
 ```
@@ -36,7 +36,6 @@ git push -u origin main
 npm install
 npm run dev
 ```
-\
 > By default Astro listens on port:4321
 
 8. **Customize and Make It Your Own** \
