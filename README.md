@@ -39,7 +39,6 @@ npm run dev
 ```
 > By default Astro listens on port:4321
 
-\
 
 8. **Customize and Make It Your Own** \
 Get freaky with it.
