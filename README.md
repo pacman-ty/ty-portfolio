@@ -37,7 +37,8 @@ git push -u origin main
 npm install
 npm run dev
 ```
-> By default Astro listens on port:4321  
+> By default Astro listens on port:4321
+
 \
 
 8. **Customize and Make It Your Own** \
