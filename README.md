@@ -7,7 +7,7 @@
 (^_^)/
 <br>
 
-3. **Clone My Repository**  
+2. **Clone My Repository**  
 ```bash 
 git clone git@github.com:pacman-ty/ty-portfolio.git
 ```
