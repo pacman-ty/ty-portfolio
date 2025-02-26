@@ -3,7 +3,7 @@
 
 ## Using my website as a template for your own 
 
-1. **Create an Empty Repository on GitHub** \\
+1. **Create an Empty Repository on GitHub** \nl
 Type shit.
 
 2. **Clone My Repository**  
