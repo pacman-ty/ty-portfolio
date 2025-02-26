@@ -1,2 +1,4 @@
-# ty-portfolio
-my personal portfolio
+# Talha Yildirims Portfolio Website
+\:\)
+
+## Uing 
