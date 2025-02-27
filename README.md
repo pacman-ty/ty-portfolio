@@ -1,4 +1,4 @@
-# Talha Yildirims Portfolio Website
+# Talha Yildirim's Portfolio Website
 \:\)
 
 ## Using my website as a template for your own 
@@ -7,7 +7,7 @@
 (^_^)/
 <br>
 
-3. **Clone My Repository**  
+2. **Clone My Repository**  
 ```bash 
 git clone git@github.com:pacman-ty/ty-portfolio.git
 ```
