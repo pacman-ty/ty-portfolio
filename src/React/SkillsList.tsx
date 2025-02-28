@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const CategoryIcons = {
-  "Backend Development": (
+  "Backend Engineering": (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
@@ -11,24 +11,28 @@ const CategoryIcons = {
       <path d="M21 3C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H21ZM20 11H4V19H20V11ZM20 5H4V9H20V5ZM11 6V8H9V6H11ZM7 6V8H5V6H7Z"></path>
     </svg>
   ),
-  "Mobile Development": (
+  "Cloud Deployment": (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
       fill="currentColor"
       className="w-6 h-6 text-[var(--sec)] opacity-70"
     >
-      <path d="M7 4V20H17V4H7ZM6 2H18C18.5523 2 19 2.44772 19 3V21C19 21.5523 18.5523 22 18 22H6C5.44772 22 5 21.5523 5 21V3C5 2.44772 5.44772 2 6 2ZM12 17C12.5523 17 13 17.4477 13 18C13 18.5523 12.5523 19 12 19C11.4477 19 11 18.5523 11 18C11 17.4477 11.4477 17 12 17Z"></path>
+      <path d="M1.125 10.156h15.875c0.594 0 1.125 0.531 1.125 1.125v2.625c0 0.625-0.531 1.125-1.125 1.125h-15.875c-0.625 0-1.125-0.5-1.125-1.125v-2.625c0-0.594 0.5-1.125 1.125-1.125zM16.75 12.844v-0.5c0-0.188-0.188-0.375-0.375-0.375h-2c-0.219 0-0.375 0.188-0.375 0.375v0.5c0 0.219 0.156 0.375 0.375 0.375h2c0.188 0 0.375-0.156 0.375-0.375zM1.125 15.906h15.875c0.594 0 1.125 0.5 1.125 1.125v2.625c0 0.625-0.531 1.125-1.125 1.125h-15.875c-0.625 0-1.125-0.5-1.125-1.125v-2.625c0-0.625 0.5-1.125 1.125-1.125zM16.75 18.594v-0.5c0-0.188-0.188-0.375-0.375-0.375h-2c-0.219 0-0.375 0.188-0.375 0.375v0.5c0 0.219 0.156 0.375 0.375 0.375h2c0.188 0 0.375-0.156 0.375-0.375zM1.125 21.656h15.875c0.594 0 1.125 0.5 1.125 1.125v2.625c0 0.625-0.531 1.125-1.125 1.125h-15.875c-0.625 0-1.125-0.5-1.125-1.125v-2.625c0-0.625 0.5-1.125 1.125-1.125zM16.75 24.344v-0.5c0-0.219-0.188-0.375-0.375-0.375h-2c-0.219 0-0.375 0.156-0.375 0.375v0.5c0 0.219 0.156 0.375 0.375 0.375h2c0.188 0 0.375-0.156 0.375-0.375zM17 9.313h-15.875c-0.188 0-0.375 0.031-0.531 0.094l1.906-2.594c0.375-0.5 1.188-0.906 1.813-0.906h9.5c0.594 0 1.406 0.406 1.781 0.906l1.938 2.594c-0.188-0.063-0.375-0.094-0.531-0.094z"></path>
     </svg>
   ),
-  "UI/UX Design & Prototyping": (
+  "Sunshine and Rainbows": (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
+      viewBox="0 0 20 20"
       fill="currentColor"
       className="w-6 h-6 text-[var(--sec)] opacity-70"
+      stroke="currentColor"
+      strokeWidth="0.5"
     >
-      <path d="M5.7646 7.99998L5.46944 7.26944C5.26255 6.75737 5.50995 6.17454 6.02202 5.96765L15.2939 2.22158C15.8059 2.01469 16.3888 2.26209 16.5956 2.77416L22.2147 16.6819C22.4216 17.194 22.1742 17.7768 21.6622 17.9837L12.3903 21.7298C11.8783 21.9367 11.2954 21.6893 11.0885 21.1772L11.0002 20.9586V21H7.00021C6.44792 21 6.00021 20.5523 6.00021 20V19.7303L2.65056 18.377C2.13849 18.1701 1.89109 17.5873 2.09798 17.0752L5.7646 7.99998ZM8.00021 19H10.2089L8.00021 13.5333V19ZM6.00021 12.7558L4.32696 16.8972L6.00021 17.6084V12.7558ZM7.69842 7.44741L12.5683 19.5008L19.9858 16.5039L15.1159 4.45055L7.69842 7.44741ZM10.6766 9.47974C10.1645 9.68663 9.5817 9.43924 9.37481 8.92717C9.16792 8.4151 9.41532 7.83227 9.92739 7.62538C10.4395 7.41849 11.0223 7.66588 11.2292 8.17795C11.4361 8.69002 11.1887 9.27286 10.6766 9.47974Z"></path>
+      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+      <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.5 3.5 0 0 0 8 11.5a3.5 3.5 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.5 4.5 0 0 1 8 12.5a4.5 4.5 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5m4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5"/>
+
     </svg>
   ),
 };
@@ -37,19 +41,20 @@ const SkillsList = () => {
   const [openItem, setOpenItem] = useState<string | null>(null);
 
   const skills = {
-    "Backend Development": [
-      "Single Page Applications (SPAs)",
-      "Landing pages and business websites",
-      "Portfolio websites",
+    "Backend Engineering": [
+      "Authentication and authorization systems (e.g., OAuth, JWT)",
+      "RESTful API development and integration",
+      "Performance optimization and scalability solutions",
     ],
-    "Mobile Development": [
-      "Mobile-friendly web apps",
-      "React Native mobile apps",
+    "Cloud Deployment": [
+      "Containerization and orchestration (Docker, Kubernetes, etc)",
+      "CI/CD pipeline implementation and automation (GitHub Actions)",
+      "Infrastructure setup and management (AWS and self hosting)",
     ],
-    "UI/UX Design & Prototyping": [
-      "UI design with Figma & Canva",
-      "UX research & improvements",
-      "Prototyping for websites & mobile apps",
+    "Sunshine and Rainbows": [
+      "Collaborative and joyful personality",
+      "Enjoy a plethora of activites (rock climbing, reading, camping, etc)",
+      "Very funny (trust me)",
     ],
   };
 
@@ -58,22 +63,22 @@ const SkillsList = () => {
   };
 
   return (
-    <div className="text-left pt-3 md:pt-9">
+    <div className="text-left pt-4 md:pt-9">
       <h3 className="text-[var(--white)] text-3xl md:text-4xl font-semibold md:mb-6">
         What I do?
       </h3>
-      <ul className="space-y-4 mt-4 text-lg">
+      <ul className="space-y-4 mt-8 text-lg">
         {Object.entries(skills).map(([category, items]) => (
           <li key={category} className="w-full">
             <div
               onClick={() => toggleItem(category)}
-              className="md:w-[400px] w-full bg-[#1414149c] rounded-2xl text-left hover:bg-opacity-80 transition-all border border-[var(--white-icon-tr)] cursor-pointer overflow-hidden"
+              className="md:w-[650px] w-full bg-[#1414149c] rounded-2xl text-left hover:bg-opacity-80 transition-all border border-[var(--white-icon-tr)] cursor-pointer overflow-hidden"
             >
               <div className="flex items-center gap-3 p-4">
                 {CategoryIcons[category]}
                 <div className="flex items-center gap-2 flex-grow justify-between">
-                  <div className="min-w-0 max-w-[200px] md:max-w-none overflow-hidden">
-                    <span className="block truncate text-[var(--white)] text-lg">
+                  <div className="min-w-0 max-w-[300px] md:max-w-none overflow-hidden"> {/* test on phones and see if the truncation needs to made bigger */}
+                    <span className="block truncate text-[var(--white)] text-xl">
                       {category}
                     </span>
                   </div>
@@ -97,7 +102,7 @@ const SkillsList = () => {
                     : "max-h-0 opacity-0"
                 }`}
               >
-                <ul className="space-y-2 text-[var(--white-icon)] text-sm">
+                <ul className="space-y-2 text-[var(--white-icon)] text-lg">
                   {items.map((item, index) => (
                     <div key={index} className="flex items-center">
                       <span className="pl-1">•</span>
