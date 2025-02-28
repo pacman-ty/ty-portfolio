@@ -1,30 +1,41 @@
 ---
 import { Image } from "astro:assets";
-import svgl from "../../public/svgl.png";
-import stockin from "../../public/stockin.png";
+import chess from "../../public/chess.jpg";
+import api1 from "../../public/api1.jpg";
+import website from "../../public/website.png";
+import dotfiles from "../../public/dotfiles.png";
 
 interface Project {
   title: string;
   image: ImageMetadata;
   link: string;
-  preview: string;
   status: string;
 }
 
 const projects: Project[] = [
   {
-    title: "StockIn",
-    image: stockin as ImageMetadata,
-    link: "https://github.com/gothsec/stockin-demo",
-    preview: "https://stockin-demo.vercel.app",
-    status: "In Development",
+    title: "Chess Engine",
+    image: chess as ImageMetadata,
+    link: "https://github.com/pacman-ty/chess-engine",
+    status: "Contributor",
   },
   {
-    title: "Svgl.app",
-    image: svgl as ImageMetadata,
-    link: "https://github.com/pheralb/svgl",
-    preview: "https://svgl.app",
-    status: "Contributor",
+    title: "Social Media API",
+    image: api1 as ImageMetadata,
+    link: "https://github.com/pacman-ty/social-media-api",
+    status: "Solo Contributer",
+  },
+  {
+    title: "Personal Website",
+    image: website as ImageMetadata,
+    link: "https://github.com/pacman-ty/social-media-api",
+    status: "Solo Contributer",
+  },
+  {
+    title: "Dotfiles",
+    image: dotfiles as ImageMetadata,
+    link: "https://github.com/pacman-ty/dotfiles",
+    status: "Solo Contributer",
   },
 ];
 ---
@@ -41,12 +52,6 @@ const projects: Project[] = [
       {
         projects.map((project) => (
           <div class="group">
-            <a
-              href={project.preview}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="block"
-            >
               <div class="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 mb-4">
                 <Image
                   src={project.image}
@@ -77,31 +82,15 @@ const projects: Project[] = [
                       <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z" />
                     </svg>
                   </a>
-                  <a
-                    target="_blank"
-                    href={project.preview}
-                    aria-label="Preview"
-                    class="size-14 flex justify-center items-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-1 border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      class="size-7"
-                    >
-                      <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z" />
-                    </svg>
-                  </a>
                 </div>
               </div>
-            </a>
           </div>
         ))
       }
     </div>
     <a
       target="_blank"
-      href="https://github.com/Gothsec?tab=repositories"
+      href="https://github.com/pacman-ty?tab=repositories"
       aria-label="GitHub"
       class="w-full flex items-center justify-center gap-2 mt-9 text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-[var(--white-icon-tr)] p-3 rounded-full bg-[#1414149c] hover:bg-[var(--white-icon-tr)]"
     >
