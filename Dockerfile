@@ -9,7 +9,7 @@ RUN npm install
 
 COPY . .
 
-RUN npm run build
+RUN npm run build 
 
 # Bind to all interfaces
 ENV HOST=0.0.0.0
@@ -18,4 +18,5 @@ ENV PORT=4321
 # Just convention, not required
 EXPOSE 4321
 
-CMD ["npm", "run", "dev", "--", "--host"] # Start the app
+CMD ["npm", "run", "preview", "--", "--host"]
+
