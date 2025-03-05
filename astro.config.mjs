@@ -5,8 +5,8 @@ import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://pacman-ty.github.io/ty-portfolio/',
-  base: '/ty-portfolio',
+  site: 'https://pacman-ty.github.io',
+  base: '/ty-portfolio/',
   integrations: [tailwind(), react()],
   vite: {
     resolve: {
