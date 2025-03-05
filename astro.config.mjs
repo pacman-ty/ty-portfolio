@@ -7,6 +7,8 @@ import react from '@astrojs/react';
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind(), react()],
+  site: 'https://pacman-ty.github.io/ty-portfolio/',
+  base: 'ty-portfolio',
   vite: {
     resolve: {
       alias: {
@@ -23,4 +25,5 @@ export default defineConfig({
     host: true,
     port: 4321,
   }
+  
 });
